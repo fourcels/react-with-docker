@@ -1,0 +1,9 @@
+:80 {
+	root ./build
+
+	try_files {path} /
+
+	encode gzip
+
+	file_server
+}
